@@ -1,0 +1,39 @@
+{
+    "navbar": {
+        "Servicos": "Servicios",
+        "aboutUs": "Acerca nosotros",
+        "contact": "Contacto",
+        "menu": "Login"
+    },
+    "inicio": {
+        "titulo1": "Soluciones de seguridad electrónica para su hogar y negocio.",
+         "btnConf": "Verificar",
+         "prgfUm": "Somos expertos en puertas automáticas.",
+         "prgfDois": "Con veinte años de experiencia, ya atendemos a más de mil clientes en Fortaleza y la región metropolitana.",
+         "card1": "Instalaciones y mantenimiento eléctrico residencial y comercial.",
+         "card2": "Mantenimiento e instalación de Cerco Eléctrico.",
+         "card3": "Instalaciones y mantenimiento de Sistemas de Alarma.",
+         "card4": "Instalación de cámaras de videovigilancia con acceso remoto.",
+         "card5": "Mantenimiento e Instalaciones en Sistemas de Intercomunicación Residencial y de Edificios.",
+         "card6": "Mantenimiento e Instalaciones en Edificios de Sistemas de Antenas Colectivas.",
+         "prgfSeis": "Nuestro objetivo es brindarle a usted y a su familia mayor tranquilidad y conveniencia a través de soluciones de seguridad y automatización.",
+         "prgfSete": "Todo esto y mucho más. ¡Solicita tu cotización ahora!"
+    },
+    "sobre": {
+        "prgf1": "Comenzamos nuestro camino en 2004 cuando nuestro fundador Isaque Fontenele decidió comprometerse a brindar a las familias de Ceará nuevas soluciones de seguridad residencial e industrial.",
+        "prgf2": "Desde entonces, hemos atendido a miles de familias y empresas en Fortaleza y la región metropolitana y nos hemos convertido en expertos en ofrecer el mejor servicio que somos capaces de ofrecer.",
+        "tituloMissao": "Misión:",
+        "descricaoMissao": "Ofrecer más seguridad y tranquilidad a través de la prestación de Servicios de Instalación y Mantenimiento de productos de Seguridad Electrónica.",
+        "titleVision": "Visión:",
+        "descricaoVisao": "Convertirnos en una referencia en el mercado a través de la calidad de nuestros servicios.",
+        "tituloValores": "Valores:",
+        "descricaoValores1": "1. Seguridad y Tranquilidad: Compromiso con la protección: Priorizar la seguridad y el bienestar de los clientes, ofreciendo soluciones eficaces y personalizadas. Tecnología de vanguardia: Invertir en equipos y sistemas de última generación para garantizar la máxima protección.Profesionalidad y experiencia: Mantener un equipo altamente cualificado y experimentado para satisfacer con excelencia las necesidades del cliente.Transparencia y confianza: Mantener una comunicación clara y transparente con los clientes, construyendo relaciones de confianza.",
+        "descricaoValores2": "2. Innovación y Pionerismo: Cultura de innovación: Fomentar la búsqueda de soluciones innovadoras y personalizadas para satisfacer las necesidades del cliente. Investigación y desarrollo: Invertir en investigación y desarrollo para ofrecer los mejores productos y servicios del mercado. Seguimiento de Tendencias: Mantenerse actualizado con las últimas tecnologías y tendencias del mercado de la seguridad electrónica. Visión de futuro: Buscar constantemente nuevas oportunidades de crecimiento y expansión de la empresa.",
+        "descricaoValores3": "3. Ética y Transparencia: Comportamiento ético: Actuar de forma ética y profesional en todas las relaciones con clientes, empleados, proveedores y socios. Transparencia en las acciones: Mantener una comunicación transparente con todos los stakeholders de la empresa. Lucha contra la corrupción: Repudiar cualquier forma de corrupción o práctica ilegal Responsabilidad social: Contribuir al bienestar de la comunidad y al desarrollo sostenible de la sociedad."
+    },
+    "footer": {
+        "contato": "Contáctenos:",
+        "tituloEmp": "Servicios de soporte técnico",
+        "endereco": "Rua Irapuan Vidal 1426, Parque Potira 2 - Caucaia, CE."
+    }
+}

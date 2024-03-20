@@ -1,0 +1,40 @@
+{
+    "navbar": {
+        "Servicos": "Serviços",
+        "aboutUs": "Sobre Nós",
+        "contact": "Contato",
+        "menu": "Login"
+    },
+    "inicio": {
+        "titulo1": "Soluções de Segurança Eletrônica para sua casa e para seu negócio.",
+        "btnConf": "Conferir",
+        "prgfUm": "Somos especialistas em portões automáticos.",
+        "prgfDois": "Com vinte anos de experiência, já atendemos mais de mil clientes em Fortaleza e região metropolitana.",
+        "card1": "Instalações e manutenções elétricas residenciais e comerciais.",
+        "card2": "Manutenções e instalação de Cerca Elétrica.",
+        "card3": "Instalações e manutenção de Sistemas de Alarmes.",
+        "card4": "Instalação de câmeras de vídeo monitoramento com acesso remoto.",
+        "card5": "Manutenções e Instalações em Sistemas de Interfonia residencial e predial.",
+        "card6": "Manutenções e Instalações em Sistemas de Antena coletiva predial.",
+        "prgfSeis": "Nosso objetivo é proporcionar a você e sua família mais tranquilidade e comodidade através de soluções de segurança e automações.",
+        "prgfSete": "Tudo isso e muito mais. Peça já o seu orçamento!"
+    },
+    "sobre": {
+       "prgf1": "Iniciamos nossa jornada em 2004 quando nosso fundador Isaque Fontenele decidiu empenhar-se em proporcionar às famílias cearenses novas soluções de segurança residencial e industrial.",
+       "prgf2": "Desde então já atendemos milhares de famílias e empresas em Fortaleza e região metropolitana e nos tornamos especialistas em oferecer o melhor serviço de que somos capazes.",
+       "tituloMissao": "Missão:",
+       "descricaoMissao": "Oferecer mais segurança e tranquilidade através da prestação de Servicos de Instalações e manutenções de produtos de Segurança Eletrônica.",
+       "tituloVisao": "Visão:",
+       "descricaoVisao": "Tornar-se referência no mercado através da qualidade de nossos atendimentos.",
+       "tituloValores": "Valores:",
+       "descricaoValores1": "1. Segurança e Tranquilidade: Compromisso com a proteção: Priorizar a segurança e o bem-estar dos clientes, oferecendo soluções eficazes e personalizadas. Tecnologia de ponta: Investir em equipamentos e sistemas de última geração para garantir a máxima proteção. Profissionalismo e expertise: Manter uma equipe altamente qualificada e experiente para atender às necessidades dos clientes com excelência.Transparência e confiança: Manter uma comunicação clara e transparente com os clientes, construindo relações de confiança.",
+       "descricaoValores2": "2. Inovação e Pioneirismo: Cultura de inovação: Incentivar a busca por soluções inovadoras e personalizadas para atender às necessidades dos clientes. Pesquisa e desenvolvimento: Investir em pesquisa e desenvolvimento para oferecer os melhores produtos e serviços do mercado. Acompanhamento das tendências: Manter-se atualizado sobre as últimas tecnologias e tendências do mercado de segurança eletrônica. Visão de futuro: Buscar constantemente novas oportunidades de crescimento e expansão da empresa.",
+       "descricaoValores3": "3. Ética e Transparência: Comportamento ético: Atuar com ética e profissionalismo em todas as relações com clientes, colaboradores, fornecedores e parceiros. Transparência nas ações: Manter uma comunicação transparente com todos os stakeholders da empresa. Combate à corrupção: Repudiar qualquer forma de corrupção ou prática ilegal.Responsabilidade social: Contribuir para o bem-estar da comunidade e para o desenvolvimento sustentável da sociedade."
+    },
+    "footer": {
+        "contato": "Entre em contato conosco:",
+        "tituloEmp": "Serviços de Atendimento Técnico",
+        "endereco": "Rua Irapuan Vidal 1426, Parque Potira 2 - Caucaia, CE.",
+        "redes": "Redes Sociais:"
+    }
+}

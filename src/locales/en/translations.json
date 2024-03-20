@@ -1,0 +1,39 @@
+{
+    "navbar": {
+        "Servicos": "Services",
+        "aboutUs": "About Us",
+        "contact": "Contact",
+        "menu": "Login"
+    },
+    "inicio": {
+        "titulo1": "Electronic Security Solutions for your home and business.",
+         "btnConf": "Check",
+         "prgfUm": "We are experts in automatic gates.",
+         "prgfDois": "With twenty years of experience, we have already served more than a thousand customers in Fortaleza and the metropolitan region.",
+         "card1": "Residential and commercial electrical installations and maintenance.",
+         "card2": "Maintenance and installation of Electric Fence.",
+         "card3": "Installations and maintenance of Alarm Systems.",
+         "card4": "Installation of video monitoring cameras with remote access.",
+         "card5": "Maintenance and Installations in Residential and Building Intercom Systems.",
+         "card6": "Maintenance and Installations in Building Collective Antenna Systems.",
+         "prgfSeis": "Our goal is to provide you and your family with greater peace of mind and convenience through security solutions and automation.",
+         "prgfSete": "All this and much more. Request your quote now!"
+    },
+    "sobre": {
+        "prgf1": "We began our journey in 2004 when our founder Isaque Fontenele decided to commit to providing families in Ceará with new residential and industrial security solutions.",
+        "prgf2": "Since then, we have served thousands of families and companies in Fortaleza and the metropolitan region and have become experts in offering the best service we are capable of.",
+        "tituloMissao": "Mission:",
+        "descricaoMissao": "To offer more security and peace of mind through the provision of Installation and Maintenance Services for Electronic Security products.",
+        "tituloVisao": "Vision:",
+        "descricaoVisao": "To become a reference in the market through the quality of our services.",
+        "tituloValores": "Values:",
+        "descricaoValores1": "1. Security and Peace of Mind: Commitment to protection: Prioritizing the safety and well-being of customers, offering effective and personalized solutions. Cutting-edge technology: Investing in state-of-the-art equipment and systems to ensure maximum protection . Professionalism and expertise: Maintain a highly qualified and experienced team to meet customer needs with excellence.Transparency and trust: Maintain clear and transparent communication with customers, building relationships of trust.",
+        "descricaoValores2": "2. Innovation and Pioneering: Culture of innovation: Encourage the search for innovative and personalized solutions to meet customer needs. Research and development: Invest in research and development to offer the best products and services on the market. Monitoring of trends: Stay up to date with the latest technologies and trends in the electronic security market. Future vision: Constantly seek new opportunities for growth and expansion of the company.",
+        "descricaoValores3": "3. Ethics and Transparency: Ethical behavior: Act ethically and professionally in all relationships with customers, employees, suppliers and partners. Transparency in actions: Maintain transparent communication with all company stakeholders. Fight against corruption : Repudiate any form of corruption or illegal practice. Social responsibility: Contribute to the well-being of the community and the sustainable development of society."
+    },
+    "footer": {
+        "contato": "Contact us:",
+        "tituloEmp": "Serviços de Atendimento Técnico",
+        "endereco": "Rua Irapuan Vidal 1426, Parque Potira 2 - Caucaia, CE."
+    }
+}
