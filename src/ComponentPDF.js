@@ -1,4 +1,4 @@
-import { Button, SubtituloTabela, TituloTabela, Data, DadosCliente, Informacoes, FlexItem, Layoutorcamento, Subtitulo, Titulos, Tabela, ColunaTabela, LinhaTabela, LogoCabecalho, CabecalhoOrcamento, CabecalhoTitulos, DadosClienteDiv, ConteudoDoPDF, } from "./styled"; // DivRodape, TextRodape
+import { Button, SubtituloTabela, TituloTabela, Data, DadosCliente, Informacoes, FlexItem, Layoutorcamento, Subtitulo, Titulos, Tabela, ColunaTabela, LinhaTabela, LogoCabecalho, CabecalhoOrcamento, CabecalhoTitulos, DadosClienteDiv, ConteudoDoPDF, } from "./styled";
 import { Table } from 'reactstrap';
 import { jsPDF } from "jspdf";
 import html2canvas from "html2canvas";
@@ -12,7 +12,7 @@ const dataAtual = new Date().toLocaleDateString('pt-BR', {
 });
 
 
-const handleGerarPDF = () => {
+const GerarPDF = () => {
    const input = document.getElementById('ConteudoDoPDF');
    html2canvas(input, { scale: 2 })
       .then((canvas) => {
@@ -23,7 +23,7 @@ const handleGerarPDF = () => {
          pdf.addImage(imgData, 'JPEG', 0, 0, imgWidth, imgHeight);
 
          const pageCount = pdf.getNumberOfPages();
-         for(let i = 1; i <= pageCount; i++) {
+         for (let i = 1; i <= pageCount; i++) {
             pdf.setPage(i);
             pdf.setFontSize(10);
             pdf.text('FONTENELE SAT – Sistema de Atendimento Técnico. Rua Irapuan Vidal 1426, Parque Potira, Caucaia - CE.', 10, 290);
@@ -34,7 +34,12 @@ const handleGerarPDF = () => {
 };
 
 const ComponentPDF = (props) => {
-   const valorTotal = props.itens.reduce((total, item) => total + (item.qtde * item.valorUn), 0);
+   const valorTotal = props.itens.reduce((total, item) => {
+      let qtde = parseFloat(item.qtde.replace(',', '.'));
+      let valorUn = parseFloat(item.valorUn.replace(',', '.'));
+      return total + (qtde * valorUn);
+   }, 0);
+
    return (
       <Layoutorcamento>
          <div id='ConteudoDoPDF'>
@@ -76,16 +81,21 @@ const ComponentPDF = (props) => {
                      </tr>
                   </thead>
                   <LinhaTabela>
-                     {props.itens.map((item, index) => (
-                        <tr key={index}>
-                           <ColunaTabela scope="row">{index + 1}</ColunaTabela>
-                           <td>{item.descricao}</td>
-                           <td>{item.qtde}</td>
-                           <td>{item.unidade}</td>
-                           <td>{parseFloat(item.valorUn).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</td>
-                           <td>{(item.qtde * item.valorUn).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</td>
-                        </tr>
-                     ))}
+                     {props.itens.map((item, index) => {
+                        let qtde = parseFloat(item.qtde.replace(',', '.'));
+                        let valorUn = parseFloat(item.valorUn.replace(',', '.'));
+                        return (
+                           <tr key={index}>
+                              <ColunaTabela scope="row">{index + 1}</ColunaTabela>
+                              <td>{item.descricao}</td>
+                              <td>{item.qtde}</td>
+                              <td>{item.unidade}</td>
+                              <td>{valorUn.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</td>
+                              <td>{(qtde * valorUn).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</td>
+                           </tr>
+                        );
+                     })}
+
                   </LinhaTabela>
                </Table>
             </Tabela>
@@ -119,22 +129,10 @@ const ComponentPDF = (props) => {
                Isaque Fontenele <br />
                Técnico Responsável
             </Data>
-            {/* <DivRodape>
-               <TextRodape>
-                  FONTENELE SAT – Sistema de Atendimento Técnico.
-               </TextRodape>
-               <TextRodape>
-                  Rua Irapuan Vidal 1426 Parque Potira Caucaia - CE.
-               </TextRodape>
-               <TextRodape>
-                  Fone: (85)98764-8997. E-mail: fontenelesat@gmail.com
-               </TextRodape>
-            </DivRodape> */}
-
          </div>
 
          <FlexItem>
-            <Button onClick={handleGerarPDF}>Download PDF</Button>
+            <Button onClick={GerarPDF}>Download PDF</Button>
          </FlexItem>
       </Layoutorcamento>
 
