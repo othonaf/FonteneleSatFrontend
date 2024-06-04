@@ -16,6 +16,7 @@ const Orcamento = () => {
     const [enderecoCliente, setEnderecoCliente] = useState('');
     const [titulo, setTitulo] = useState('');
     const [subtitulo, setSubtitulo] = useState('');
+    const [prazo, setPrazo] = useState('');
 
     const adicionarItem = () => {
         setItens([...itens,
@@ -41,6 +42,7 @@ const Orcamento = () => {
         localStorage.setItem('enderecoCliente', enderecoCliente);
         localStorage.setItem('titulo', titulo);
         localStorage.setItem('subtitulo', subtitulo);
+        localStorage.setItem('prazo', prazo)
 
         window.open('./PaginaPDF', '_blank');
     };
@@ -122,8 +124,20 @@ const Orcamento = () => {
                         </InputGroupText>
                         <InputText onChange={e => atualizarItem(index, 'valorUn', e.target.value)} />
                     </InputGroup>
+
                 </ItemTabela>
+
             ))}
+            <ItemTabela>
+                <InputGroup size="sm">
+                    <InputGroupText>
+                        Prazo de Entrega:
+                    </InputGroupText>
+                    <InputText onChange={e => setPrazo(e.target.value)} />
+                </InputGroup>
+            </ItemTabela>
+
+
             <FlexItem>
                 <Button onClick={adicionarItem}>Novo Item</Button>
                 <Button onClick={handleGerarPDF}>Visualizar PDF</Button>

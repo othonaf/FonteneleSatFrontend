@@ -112,7 +112,7 @@ const ComponentPDF = (props) => {
 
                <Informacoes>
                   2 - PRAZO DE ENTREGA:<br />
-                  Quinze (15) dias úteis, após o início. Início da obra imediato.<br />
+                  {props.prazo} dias úteis, após o início. Início da obra imediato.<br />
                   Garantia do serviço de três meses.<br />
 
                   3 – Validade do orçamento:<br />

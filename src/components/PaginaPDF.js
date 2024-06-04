@@ -7,6 +7,8 @@ const PaginaPDF = () => {
     const [enderecoCliente, setEnderecoCliente] = useState('');
     const [titulo, setTitulo] = useState('');
     const [subtitulo, setSubtitulo] = useState('');
+    const [prazo, setPrazo] = useState('');
+
 
     useEffect(() => {
 
@@ -15,6 +17,7 @@ const PaginaPDF = () => {
         setEnderecoCliente(localStorage.getItem('enderecoCliente'));
         setTitulo(localStorage.getItem('titulo'));
         setSubtitulo(localStorage.getItem('subtitulo'));
+        setPrazo(localStorage.getItem('prazo'))
     }, []);
 
     return (
@@ -24,6 +27,7 @@ const PaginaPDF = () => {
             enderecoCliente={enderecoCliente}
             titulo={titulo}
             subtitulo={subtitulo}
+            prazo={prazo}
         />
     );
 }
